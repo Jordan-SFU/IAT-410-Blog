@@ -16,6 +16,7 @@ body{font-family:system-ui,Segoe UI,Roboto,'Helvetica Neue',Arial;line-height:1.
 .post-link{position:absolute;inset:0;border-radius:8px;display:block;background:transparent;border:none;z-index:2;cursor:pointer}
 .post-link:focus-visible{outline:3px solid rgba(184,143,23,0.12)}
 .post-thumb{width:100%;height:auto;border-radius:6px;display:block;margin-bottom:0.75rem;object-fit:cover;border:1px solid rgba(0,0,0,0.03);background-color: #333;}
+.post-thumb-tall{width:50%;height:auto;border-radius:6px;display:block;margin-bottom:0.75rem;margin-left:auto;margin-right:auto;object-fit:cover;border:1px solid rgba(0,0,0,0.03);background-color: #333;}
 .post-title{margin:0 0 0.25rem}
 .post-title a{color:var(--accent-dark);text-decoration:none}
 .meta{margin:0 0 0.5rem;color:var(--muted);font-size:0.9rem}
