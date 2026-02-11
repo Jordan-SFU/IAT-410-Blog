@@ -31,13 +31,13 @@
         bringing it all together into a unified loop, complete with art assets and basic UI. 
         <img class="post-thumb" src="../public/gameplay_sc.png" alt="Gameplay">
         
-        I created a tile system in Unity to allow the designer to easily lay out the ship environment, as well as decide which sequence of tools is required 
+        To help speed up the designing process and decouple it from the implementation, I created a tile system in Unity to allow the designer to easily lay out the ship environment, as well as decide which sequence of tools is required 
         to fix a given ship component. Its as easy as clicking the + button, and selecting the desired tool from the dropdown menu. You can also
         specify how much damage the ship takes when a panel of this type is destroyed, which is also how much health the ship regains upon its successful
         repair.        
         <img class="post-thumb-tall" src="../public/modular_repairseq.png" alt="Modular Repairing">
 
-        In addition, I create another modular system to control how we will define levels in our game. Using Unity's custom editor feature, I created
+        In addition, I created another modular system to control how we will define levels in our game. Using Unity's custom editor feature, I created
         a timeline view, allowing our designers to control the various events in our game such as asteroid and alien spawning. They can choose
         between wave spawning (all at once) or continuous spawning over a given period, and these can be overlapped to create engaging and dynamic
         levels. It's also easily extensible for when we add new environment hazards allowning our designers to work independantly of our programmers
