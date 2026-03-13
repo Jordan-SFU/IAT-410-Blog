@@ -18,14 +18,52 @@
     <article class="blog-post">
       <div class="post-header">
         <a class="back-button" href="../index.html" aria-label="Back to home">←</a>
-        <h1>Week 4</h1>
+        <h1>Week 4: Alpha Code</h1>
       </div>
-      <p class="meta">Jan 30, 2026</p>
-      <img class="post-thumb" src="https://placehold.co/600x400" alt="Week 4 thumbnail">
+      <p class="meta">Mar 12th, 2026 at 9:40 PM</p>
+      <img class="post-thumb" src="../public/gameplay new.png" alt="Week 4 thumbnail">
 
-      <p>Placeholder text</p>
+      <p><em>Alpha Code</em></p>
 
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium tenetur necessitatibus reprehenderit recusandae fugiat dolorem eveniet, dolores molestiae suscipit accusamus nemo reiciendis deserunt saepe nesciunt placeat veritatis pariatur, maxime quam.</p>
+      <p>
+        This week, we finished up the alpha code! This included a complete redesign of the ship and panel flow following feedback, additional enemy types, more interactive panels,
+        and integrating a full dialogue system for both the tutorial and story beats.
+
+        <img class="post-thumb" src="../public/gameplay new.png" alt="Updated gameplay screenshot">
+        The screenshot above shows the updated gameplay state and the overall look of the ship after the latest polish pass. We focused on readability, clearer panel layouts,
+        and making sure the player can quickly understand what needs attention while everything is breaking at once.
+
+        <img class="post-thumb" src="../public/shop.png" alt="Prototype shop system">
+        I also implemented the prototype shop system so we could start testing progression and resource spending between waves. It is still lightweight, but it gives us a
+        solid base for balancing upgrades and keeping rounds feeling meaningful.
+
+        <img class="post-thumb" src="../public/turrets.png" alt="Turret panel">
+        Another big addition was the new turret panel. This helped reinforce role switching during gameplay, where players need to constantly decide whether to prioritize
+        repairing critical ship functions versus the turrets to fend off the aliens.
+
+        <img class="post-thumb" src="../public/shooting aliens.png" alt="New alien types">
+        We also introduced new alien types, which made encounters feel less predictable. Different movement and attack behaviors forced us to think more carefully about
+        encounter pacing and when pressure should spike during a level. These aliens shoot projectiles, which the player can deflect by holding the metal sheet tool.
+        This helped further improve our moment-to-moment gameplay, as this encourages the player to use their existing tools for not only repairs, but for dealing with
+        threats as well.
+
+        <img class="post-thumb" src="../public/dialogue.png" alt="Scriptable object dialogue sequence">
+        To support story delivery and tutorialization, I built a scriptable-object-based dialogue sequence system. This made it much easier to construct and reorder dialogue
+        without hardcoding every sequence, and it should make future iteration much faster for the whole team. This was used for our tutorial segment to teach players the controls
+        as well as the core mechanics.
+      </p>
+
+      <p>
+        A challenge we faced this week was scope. We had a lot of ideas we wanted to include, especially larger features like boss fights, but as both the artist and lead
+        programmer, I had to budget my time carefully and focus on getting the core gameplay mechanics finished first. It was tempting to keep expanding, but narrowing down
+        to the essential loop was the right call for our timeline.
+      </p>
+
+      <p>
+        Overall, this week was about turning the prototype into something closer to a complete alpha experience. We now have a stronger gameplay foundation, better content tools,
+        and a clearer direction for what needs to happen next. Going forward, the plan is to keep refining the core loop, tighten balance, and only then layer in additional
+        high-scope features where they fit.
+      </p>
 
     </article>
   </main>
