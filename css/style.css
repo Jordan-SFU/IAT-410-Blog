@@ -38,3 +38,22 @@ body{font-family:system-ui,Segoe UI,Roboto,'Helvetica Neue',Arial;line-height:1.
 .blog-post{background:#fff;padding:1.25rem;border-radius:8px;margin-top:1rem}
 .blog-post h1{margin-top:0}
 .back-link{display:inline-block;margin-top:1rem;color:var(--accent-dark);text-decoration:none}
+
+.media-caption{margin-top:-0.35rem;margin-bottom:0.9rem;color:var(--muted);font-size:0.9rem}
+
+.pixel-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:0.75rem;margin:1rem 0}
+.pixel-item{background:#fff;border:1px solid rgba(0,0,0,0.08);border-radius:8px;padding:0.55rem}
+.pixel-item img{width:100%;max-width:160px;height:auto;display:block;margin:0 auto 0.45rem;background:#333;border-radius:6px;image-rendering:pixelated;image-rendering:crisp-edges}
+.pixel-item.small img{max-width:110px}
+.pixel-caption{margin:0;color:#333;font-size:0.9rem;text-align:center;line-height:1.35}
+
+.final-game{margin-top:1rem;margin-bottom:1.1rem;background:#fff;padding:1rem;border-radius:10px;border:1px solid rgba(184,143,23,0.16);box-shadow:0 3px 10px rgba(30,30,30,0.05)}
+.final-game-header{display:flex;justify-content:space-between;align-items:flex-end;gap:0.8rem;flex-wrap:wrap;margin-bottom:0.65rem}
+.final-game-header h2{margin:0;font-size:1.2rem;color:var(--accent-dark)}
+.final-game-sub{margin:0;color:var(--muted);font-size:0.9rem}
+.final-game-embed-wrap{border-radius:8px;overflow:hidden;border:1px solid rgba(0,0,0,0.08);background:#fff}
+.final-game-embed{display:block;width:100%;height:167px;border:0;background:#fff}
+
+@media (max-width:640px){
+  .final-game-embed{height:167px}
+}
